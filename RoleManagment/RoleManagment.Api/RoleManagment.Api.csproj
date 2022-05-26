@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RoleManagment.Application\RoleManagment.Application.csproj" />
+    <ProjectReference Include="..\RoleManagment.Core\RoleManagment.Core.csproj" />
+    <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj" />
+    <ProjectReference Include="..\RoleManagment.Persistance\RoleManagment.Persistance.csproj" />
+    <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj" />
+  </ItemGroup>
+
 </Project>

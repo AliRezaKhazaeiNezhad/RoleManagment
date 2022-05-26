@@ -13,8 +13,8 @@ Resources
 
 
 Refrencing System:
-	Resource
-	Context		Entities
-	Repository
-	Service
+	Resources
+	Core		Domain
+	Persistance
+	Application
 	Api

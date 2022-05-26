@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj">
+      <Project>{dc4c604a-b2c3-4592-a40b-b86a8f933be0}</Project>
+      <Name>RoleManagment.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

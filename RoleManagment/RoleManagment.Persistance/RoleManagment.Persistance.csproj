@@ -43,5 +43,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RoleManagment.Core\RoleManagment.Core.csproj">
+      <Project>{6f35ef1b-2356-4a71-9f32-7755e7b5f708}</Project>
+      <Name>RoleManagment.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj">
+      <Project>{017f3448-3646-4219-8389-1f07e6aa3019}</Project>
+      <Name>RoleManagment.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj">
+      <Project>{dc4c604a-b2c3-4592-a40b-b86a8f933be0}</Project>
+      <Name>RoleManagment.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
