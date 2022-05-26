@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RoleManagment.Core\RoleManagment.Core.csproj">
-      <Project>{6f35ef1b-2356-4a71-9f32-7755e7b5f708}</Project>
+      <Project>{13a706c3-c01a-4293-955c-a942a5be047e}</Project>
       <Name>RoleManagment.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj">
