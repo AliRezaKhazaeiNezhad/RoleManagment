@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Api", "RoleManagment.Api\RoleManagment.Api.csproj", "{618EC6EE-614D-46DE-A754-FD211FD49566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B6ADA22-CF7F-4A5C-B692-BDB4213FD35D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Persistance", "RoleManagment.Persistance\RoleManagment.Persistance.csproj", "{EAFCD115-DBD4-4582-B32D-480040A14692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Core", "RoleManagment.Core\RoleManagment.Core.csproj", "{6F35EF1B-2356-4A71-9F32-7755E7B5F708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Domain", "RoleManagment.Domain\RoleManagment.Domain.csproj", "{017F3448-3646-4219-8389-1F07E6AA3019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Application", "RoleManagment.Application\RoleManagment.Application.csproj", "{188DBC5E-46AC-4D13-8394-C86AA057549D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleManagment.Resources", "RoleManagment.Resources\RoleManagment.Resources.csproj", "{DC4C604A-B2C3-4592-A40B-B86A8F933BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{618EC6EE-614D-46DE-A754-FD211FD49566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618EC6EE-614D-46DE-A754-FD211FD49566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618EC6EE-614D-46DE-A754-FD211FD49566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618EC6EE-614D-46DE-A754-FD211FD49566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFCD115-DBD4-4582-B32D-480040A14692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFCD115-DBD4-4582-B32D-480040A14692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFCD115-DBD4-4582-B32D-480040A14692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCD115-DBD4-4582-B32D-480040A14692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F35EF1B-2356-4A71-9F32-7755E7B5F708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F35EF1B-2356-4A71-9F32-7755E7B5F708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F35EF1B-2356-4A71-9F32-7755E7B5F708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F35EF1B-2356-4A71-9F32-7755E7B5F708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017F3448-3646-4219-8389-1F07E6AA3019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017F3448-3646-4219-8389-1F07E6AA3019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017F3448-3646-4219-8389-1F07E6AA3019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017F3448-3646-4219-8389-1F07E6AA3019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188DBC5E-46AC-4D13-8394-C86AA057549D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188DBC5E-46AC-4D13-8394-C86AA057549D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188DBC5E-46AC-4D13-8394-C86AA057549D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188DBC5E-46AC-4D13-8394-C86AA057549D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4C604A-B2C3-4592-A40B-B86A8F933BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4C604A-B2C3-4592-A40B-B86A8F933BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4C604A-B2C3-4592-A40B-B86A8F933BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4C604A-B2C3-4592-A40B-B86A8F933BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E98ADF21-2187-4D7D-8B92-83434A8F190E}
+	EndGlobalSection
+EndGlobal

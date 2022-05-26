@@ -3,3 +3,17 @@
 
 # Ada Library Information
 *.ali
+/.vs
+/RoleManagment/.vs/RoleManagment
+/RoleManagment/RoleManagment.Api/bin/Debug/net6.0
+/RoleManagment/RoleManagment.Api/obj
+/RoleManagment/RoleManagment.Application/bin/Debug
+/RoleManagment/RoleManagment.Application/obj/Debug
+/RoleManagment/RoleManagment.Core/bin/Debug
+/RoleManagment/RoleManagment.Core/obj/Debug
+/RoleManagment/RoleManagment.Domain/obj/Debug
+/RoleManagment/RoleManagment.Domain/bin/Debug
+/RoleManagment/RoleManagment.Persistance/obj/Debug
+/RoleManagment/RoleManagment.Persistance/bin/Debug
+/RoleManagment/RoleManagment.Resources/obj/Debug
+/RoleManagment/RoleManagment.Resources/bin/Debug
