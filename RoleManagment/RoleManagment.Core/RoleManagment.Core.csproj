@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj" />
     <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj" />
   </ItemGroup>
 

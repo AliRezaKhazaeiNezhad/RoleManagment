@@ -1,65 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{188DBC5E-46AC-4D13-8394-C86AA057549D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RoleManagment.Application</RootNamespace>
-    <AssemblyName>RoleManagment.Application</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\RoleManagment.Core\RoleManagment.Core.csproj" />
+    <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj" />
+    <ProjectReference Include="..\RoleManagment.Persistance\RoleManagment.Persistance.csproj" />
+    <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RoleManagment.Core\RoleManagment.Core.csproj">
-      <Project>{13a706c3-c01a-4293-955c-a942a5be047e}</Project>
-      <Name>RoleManagment.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RoleManagment.Domain\RoleManagment.Domain.csproj">
-      <Project>{017f3448-3646-4219-8389-1f07e6aa3019}</Project>
-      <Name>RoleManagment.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RoleManagment.Persistance\RoleManagment.Persistance.csproj">
-      <Project>{eafcd115-dbd4-4582-b32d-480040a14692}</Project>
-      <Name>RoleManagment.Persistance</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\RoleManagment.Resources\RoleManagment.Resources.csproj">
-      <Project>{dc4c604a-b2c3-4592-a40b-b86a8f933be0}</Project>
-      <Name>RoleManagment.Resources</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
 </Project>

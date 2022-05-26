@@ -18,3 +18,7 @@
 /RoleManagment/RoleManagment.Resources/obj/Debug
 /RoleManagment/RoleManagment.Resources/bin/Debug
 /RoleManagment/RoleManagment.Core/obj
+/RoleManagment/.vs/ProjectEvaluation
+/RoleManagment/RoleManagment.Application/obj
+/RoleManagment/RoleManagment.Domain/obj
+/RoleManagment/RoleManagment.Persistance/obj

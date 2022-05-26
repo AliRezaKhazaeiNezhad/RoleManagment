@@ -18,6 +18,3 @@ Refrencing System:
 	Persistance
 	Application
 	Api
-
-
-Persistance/Domain/Application =====> .Net Standard
