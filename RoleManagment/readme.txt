@@ -7,6 +7,14 @@ Core
 Domain
 	Entities
 Application
-	Services
+	Service
 Resources
 	Resources
+
+
+Refrencing System:
+	Resource
+	Context		Entities
+	Repository
+	Service
+	Api
