@@ -17,7 +17,6 @@ namespace RoleManagment.Domain
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
-
         public DateTime CreatDateTime
         {
             get
@@ -29,7 +28,6 @@ namespace RoleManagment.Domain
                 _currentDateTime = DateTime.Now;
             }
         }
-
         public DateTime ModifyDateTime
         {
             get
@@ -41,5 +39,6 @@ namespace RoleManagment.Domain
                 _currentDateTime = DateTime.Now;
             }
         }
+        public bool Remove { get; set; }
     }
 }
