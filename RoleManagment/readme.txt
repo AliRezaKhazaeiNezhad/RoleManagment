@@ -14,7 +14,8 @@ Resources
 
 Refrencing System:
 	Resources
-	Core		Domain
-	Persistance
-	Application
-	Api
+	---Domain
+	------Core
+	---------Persistance
+	------------Application
+	---------------Api
