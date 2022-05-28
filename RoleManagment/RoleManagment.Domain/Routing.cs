@@ -1,4 +1,4 @@
-﻿
+﻿using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
 
 namespace RoleManagment.Domain
@@ -7,6 +7,7 @@ namespace RoleManagment.Domain
     {
         public Routing() : base()
         {
+            RoleRoutings = new List<RoleRouting>();
         }
 
         [MaxLength(30)]
@@ -20,5 +21,9 @@ namespace RoleManagment.Domain
         [MaxLength(75)]
         public string DisplayName { get; set; }
         public int Priority { get; set; }
+
+
+        [JsonIgnore]
+        public virtual List<RoleRouting> RoleRoutings { get; set; }
     }
 }

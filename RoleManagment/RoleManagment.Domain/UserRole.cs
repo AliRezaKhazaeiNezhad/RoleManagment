@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.Text.Json.Serialization;
 
 namespace RoleManagment.Domain
 {
@@ -10,5 +9,12 @@ namespace RoleManagment.Domain
         }
 
 
+        [JsonIgnore]
+        public virtual Role Role { get; set; }
+        public string RoleId { get; set; }
+
+        [JsonIgnore]
+        public virtual User User { get; set; }
+        public string UserId { get; set; }
     }
 }

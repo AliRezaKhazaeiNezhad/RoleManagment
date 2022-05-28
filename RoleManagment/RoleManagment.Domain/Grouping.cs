@@ -1,4 +1,4 @@
-﻿
+﻿using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
 
 namespace RoleManagment.Domain
@@ -13,5 +13,11 @@ namespace RoleManagment.Domain
         public string Name { get; set; }
         [MaxLength(500)]
         public string Description { get; set; }
+
+
+        [JsonIgnore]
+        public virtual List<UserGrouping> UserGroupings { get; set; }
+        [JsonIgnore]
+        public virtual List<AdminGrouping> AdminGroupings { get; set; }
     }
 }
