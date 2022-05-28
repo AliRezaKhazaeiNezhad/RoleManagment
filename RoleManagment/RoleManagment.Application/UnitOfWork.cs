@@ -1,5 +1,4 @@
-﻿
-using RoleManagment.Core;
+﻿using RoleManagment.Core;
 
 namespace RoleManagment.Application
 {
